@@ -9,13 +9,14 @@ export type Student = {
     lastName: string;
     birthDate: Date;
     age(): number;
+    fullName(): string;
 };
 
 export type Classroom = {
     name: string;
     teacher: Teacher;
     students: Student[];
-    youngestStudent(): string;
+    youngestStudent(): Student;
 };
 
 export type School = {
@@ -23,5 +24,5 @@ export type School = {
     address: string;
     phone: string;
     classes: Classroom[];
-    classesSortedNameAcsending(): Classroom[];
+    //classesSortedNameAcsending(): Classroom[];
 }

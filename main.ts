@@ -12,12 +12,12 @@ printSchool(school);
 console.log(`Yougest student of school is:`)
 console.log(getSchoolYoungestStudentFullName(school.classes));
 
-// let fromClass: Classroom = school.classes[0];
-// let toClass: Classroom = school.classes[1];
-// let transfertStudent: Student = defineTransferStudent(fromClass);
-// console.log(``)
-// console.log(`Transfert student is ${transfertStudent.fullName()}`)
-// console.log(``)
-// transferStudent(transfertStudent.fullName(), fromClass, toClass);
-// console.log(`School consist after transfer`)
-// printSchool(school);
+let fromClass: Classroom = school.classes[0];
+let toClass: Classroom = school.classes[1];
+let transfertStudent: Student = defineTransferStudent(fromClass);
+console.log(``)
+console.log(`Transfert student is ${transfertStudent.fullName()}`)
+console.log(``)
+transferStudent(transfertStudent.fullName(), fromClass, toClass);
+console.log(`School consist after transfer`)
+printSchool(school);
