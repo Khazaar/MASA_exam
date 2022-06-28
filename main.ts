@@ -21,3 +21,4 @@ console.log(``)
 transferStudent(transfertStudent.fullName(), fromClass, toClass);
 console.log(`School consist after transfer`)
 printSchool(school);
+console.log(`Finish`);
