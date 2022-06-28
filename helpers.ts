@@ -1,7 +1,6 @@
 import { lastNames } from "./constants";
 import { Student, Teacher } from "./entities";
 
-
 export function getRandomValueFromArray(array: string[]): string {
     return array[Math.floor(Math.random() * array.length)];
 }

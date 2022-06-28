@@ -34,7 +34,6 @@ export function initializeSchoolDynamically(): School {
         classes: classes,
     }
 
-
 }
 
 export function initializeSchool(): School {
